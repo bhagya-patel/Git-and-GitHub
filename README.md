@@ -184,6 +184,8 @@ git commit -m "your commit message"
 
 here, The -m option in the git commit command is used to provide a commit message inline — directly in the terminal — instead of opening a text editor.
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/13.png)
+
 ➡️ Moves to → Committed
 
 🟢 3. Committed
@@ -197,6 +199,8 @@ At this stage, the file is clean (unmodified).
 If a file has already been committed, and you delete it, you can restore it using Git.
 
 git restore
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/14.png)
 
 🟠 4. Modified
 
@@ -252,6 +256,12 @@ Push a branch to a remote repository
 
 git branch -r
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/15.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/16.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/17.png)
+
 List remote branches
 
 The changes committed on the dev branch are not visible on the master branch until they are merged.
@@ -266,6 +276,12 @@ This command shows the Git commit history in a condensed format:
 
 ✅ Commit message
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/18.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/19.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/20.png)
+
 🔹Local to GitHub(Remote) and GitHub(Remote) to Local
 
 Here’s a clear and concise comparison of the two main ways to connect your local Git repository to GitHub:
@@ -273,6 +289,10 @@ Here’s a clear and concise comparison of the two main ways to connect your loc
 ✅ 1. Using PAT (Personal Access Token) via HTTPS
 
 ✅ 2. Using SSH Key Authentication (Recommended for Developers)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/21.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/22.png)
 
 ✅ 1. Using PAT (Personal Access Token) via HTTPS
 
@@ -282,9 +302,16 @@ after it shows a token then copy it and paste it.
 
 is used in Git to list all the remote repositories associated with your local Git repository, along with their URLs.
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/23.png)
+
 (6). git remote add origin <link>
 
 is used to add a remote repository to your local Git project, and name it origin.
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/24.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/25.png)
+
 
 (7). git remote set-url origin <link>
 
@@ -292,9 +319,13 @@ is used to update the remote repository URL (origin) and embed a personal access
 
 A personal access token can be used here, as Git no longer accepts a username and password for authentication.
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/26.png)
+
 (8). git push origin master
 
 This command pushes the latest commits from your local master branch to the remote master branch on the origin remote (e.g., GitHub).
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/27.png)
 
 (9). git pull origin master
 
@@ -305,5 +336,9 @@ Connect to the remote repository named origin.
 Download the latest commits from the master branch on that remote.
 
 Automatically merge those commits into your current local branch.
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/28.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/29.png)
 
 here we pull a new.txt in local
