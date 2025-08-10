@@ -13,17 +13,22 @@ DVCS — Distributed Version Control System
 
 CVCS — Centralized Version Control System
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/2.png)
+
+
 It is not locally available, meaning we've always needed to be connected to a network to perform any action.
 
 Since everything is centralized, if the central server gets failed, you will lose the entire data
 
 DVCS — Distributed Version Control System
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/3.png)
 
 In DVSC, every contributor has a local copy or ‘clone’ of the main repository i.e. everyone maintains a local repository of their own, which contains all the files & metadata present in the main repository.
 
 Why do we need Source Code Management as a DevOps Engineer?
 
 To use the CICD pipeline in DevOps, you must have the most recent project updates on hand. Because DevOps monitors the most recent code and creates definitions that execute a variety of tasks by user needs, the release definitions that assist in deploying the most recent binaries on your primary environment also use these definitions. Any end server where the finished product is made ready for usage might be your client computer, the production environment, or both.
+
 
 🔹Important Terms
 
@@ -117,6 +122,12 @@ When a new branch is created, data from the existing branch is copied to the new
 
 git init is a Git command used to initialize a new Git repository in your project directory. It is usually the first command you run when starting a new project you want to track with Git.
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/4.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/5.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/6.png)
+
 (2). git status
 
 The git status command shows you what's going on in your working directory and staging area. It's one of the most commonly used Git commands because it tells you:
@@ -127,7 +138,13 @@ Which files have been modified
 
 Which files are staged and ready to be committed
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/7.png)
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/8.png)
+
 🔹Git File Life Cycle
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/9.png)
 
 🟠 1. Untracked
 
@@ -139,13 +156,19 @@ Command to move to next state:
 
 git add hello.txt
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/10.png)
+
 If you want to go back from the staged state to the untracked state, use the following command:
 
 git rm --cached <file name>
 
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/11.png)
+
 if you want to add all untracked file
 
 git add .
+
+![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/12.png)
 
 ➡️ Moves to → Staged
 
