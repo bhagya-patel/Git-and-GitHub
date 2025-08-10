@@ -1,9 +1,9 @@
 # Git-and-GitHub
 
-🔹Git VS GitHub
+<h2>🔹Git VS GitHub</h2>
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/1.png)
 
-🔹Git & GitHub short Notes
+<h2>🔹Git & GitHub short Notes</h2>
 
 There is a term Source Code Management and it has two types:–
 
@@ -30,9 +30,9 @@ Why do we need Source Code Management as a DevOps Engineer?
 To use the CICD pipeline in DevOps, you must have the most recent project updates on hand. Because DevOps monitors the most recent code and creates definitions that execute a variety of tasks by user needs, the release definitions that assist in deploying the most recent binaries on your primary environment also use these definitions. Any end server where the finished product is made ready for usage might be your client computer, the production environment, or both.
 
 
-🔹Important Terms
+<h2>🔹Important Terms</h2>
 
-🔹 Repository
+<h3>🔹 Repository</h3>
 
 A repository is a place where you have all your codes or kind of folder on the server.
 
@@ -40,19 +40,18 @@ It is a kind of folder related to one product.
 
 Changes are personal to that particular repository.
 
-🔹 Server
-
+<h3>🔹 Server </h3>
 It stores all repository.
 
 It contains metadata also.
 
-🔹 Working directory
+<h3>🔹 Working directory</h3>
 
 Where you see files physically and do the modification.
 
 At a time, you can work on a particular branch.
 
-🔹 Commit
+<h3>🔹 Commit</h3>
 
 Store changes in the repository. You will get one Commit-Id.
 
@@ -64,37 +63,37 @@ Even if you change one dot, Commit-Id will change.
 
 Commit is also named the SHA-1 hash.
 
-🔹 Commit Id / Version-Id / Version
+<h3>🔹 Commit Id / Version-Id / Version</h3>
 
 Reference to identify each change.
 
 To identify who changed the file.
 
-🔹 Tags
+<h3>🔹 Tags</h3>
 
 Tags assign a meaningful name with a specific version in the repository.
 
 Once a tag is created for a particular save, even if you create a new commit, it will not be updated.
 
-🔹 Snapshots
+<h3>🔹 Snapshots</h3>
 
 Represents some date of a particular time.
 
 It is always incremental i.e. it stores the change (append date) only. Not the entire copy.
 
-🔹 Push
+<h3>🔹 Push</h3>
 
 Push operations copy changes from a local repository server to a remote or central repository.
 
 This is used to store the changes permanently in the Git repository.
 
-🔹 Pull
+<h3>🔹 Pull</h3>
 
 Pull operation copies the changes from a remote repository to a local machine.
 
 The pull operation is used for synchronization between the repository.
 
-🔹All about Git Branch
+<h2>🔹All about Git Branch</h2>
 
 The product is the same, so one repository but a different task.
 
@@ -116,9 +115,9 @@ You can create any number of branches.
 
 When a new branch is created, data from the existing branch is copied to the new branch.
 
-🔹Commands
+<h2>🔹Commands</h2>
 
-(1). git init
+<h3>(1). git init</h3>
 
 git init is a Git command used to initialize a new Git repository in your project directory. It is usually the first command you run when starting a new project you want to track with Git.
 
@@ -128,7 +127,7 @@ git init is a Git command used to initialize a new Git repository in your projec
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/6.png)
 
-(2). git status
+<h3>(2). git status</h3>
 
 The git status command shows you what's going on in your working directory and staging area. It's one of the most commonly used Git commands because it tells you:
 
@@ -142,7 +141,7 @@ Which files are staged and ready to be committed
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/8.png)
 
-🔹Git File Life Cycle
+<h2>🔹Git File Life Cycle</h2>
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/9.png)
 
@@ -218,7 +217,7 @@ git commit -m "Updated file"
 
 ➡️ Moves back to → Staged, and the cycle repeats.
 
-(3). git branch
+<h3>(3). git branch</h3>
 
 A branch in Git allows you to diverge from the main line of development and continue to work without affecting the main codebase (usually the main or master branch).
 
@@ -266,7 +265,7 @@ List remote branches
 
 The changes committed on the dev branch are not visible on the master branch until they are merged.
 
-(4). git log --oneline
+<h3>(4). git log --oneline</h3>
 
 This command shows the Git commit history in a condensed format:
 
@@ -282,7 +281,7 @@ This command shows the Git commit history in a condensed format:
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/20.png)
 
-🔹Local to GitHub(Remote) and GitHub(Remote) to Local
+<h2>🔹Local to GitHub(Remote) and GitHub(Remote) to Local</h2>
 
 Here’s a clear and concise comparison of the two main ways to connect your local Git repository to GitHub:
 
@@ -298,13 +297,13 @@ Here’s a clear and concise comparison of the two main ways to connect your loc
 
 after it shows a token then copy it and paste it.
 
-(5). git remote -v
+<h3>(5). git remote -v</h3>
 
 is used in Git to list all the remote repositories associated with your local Git repository, along with their URLs.
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/23.png)
 
-(6). git remote add origin <link>
+<h3>(6). git remote add origin <link></h3>
 
 is used to add a remote repository to your local Git project, and name it origin.
 
@@ -313,7 +312,7 @@ is used to add a remote repository to your local Git project, and name it origin
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/25.png)
 
 
-(7). git remote set-url origin <link>
+<h3>(7). git remote set-url origin <link></h3>
 
 is used to update the remote repository URL (origin) and embed a personal access token (PAT) for authentication.
 
@@ -321,13 +320,13 @@ A personal access token can be used here, as Git no longer accepts a username an
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/26.png)
 
-(8). git push origin master
+<h3>(8). git push origin master</h3>
 
 This command pushes the latest commits from your local master branch to the remote master branch on the origin remote (e.g., GitHub).
 
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/27.png)
 
-(9). git pull origin master
+<h3>(9). git pull origin master</h3>
 
 git pull origin master will:
 
@@ -342,3 +341,21 @@ Automatically merge those commits into your current local branch.
 ![image alt](https://github.com/bhagya-patel/Git-and-GitHub/blob/cd00e56770584c3318ec9f878007c4b0375dd54c/screenshots/29.png)
 
 here we pull a new.txt in local
+
+<h1> Interview Questions:</h1>
+
+<h3>What is Git?</h3>
+
+<h3>What is the difference between merge and rebase?</h3>
+
+<h3>What is a pull request?</h3>
+
+<h3>How do you resolve merge conflicts?</h3>
+
+<h3>What are Git tags?</h3>
+
+<h3>What is Git workflow?</h3>
+
+<h3>Explain git stash.</h3>
+
+<h3>What is the use of .gitignore?</h3>
